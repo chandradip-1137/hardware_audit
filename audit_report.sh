@@ -44,7 +44,7 @@ netstat -tunlp > tunlp
 cut -d: -f1,4 tunlp | sort -n -t:
 echo "**************************************************"
 echo
-echo -e "\e[0;31m 13. Networking - Network Firewall (Allowed Ports & Protocols) ///// \e[0m"
+echo -e "\e[0;31m 13. Networking - Network Firewall (Allowed Ports & Protocols)-----\e[0m"
 echo
 netstat -natp
 echo
